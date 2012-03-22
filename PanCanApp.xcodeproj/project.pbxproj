@@ -23,16 +23,16 @@
 		94818B4C151B5E5A0012D875 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		94818B4E151B5E5A0012D875 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94818B50151B5E5A0012D875 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		94818B54151B5E5A0012D875 /* PanCanApp-Info.plist */ = {isa = PBXFileReference; path = "PanCanApp-Info.plist"; sourceTree = "<group>"; };
+		94818B54151B5E5A0012D875 /* PanCanApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanCanApp-Info.plist"; sourceTree = "<group>"; };
 		94818B56151B5E5A0012D875 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94818B58151B5E5A0012D875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		94818B5A151B5E5A0012D875 /* PanCanApp-Prefix.pch */ = {isa = PBXFileReference; path = "PanCanApp-Prefix.pch"; sourceTree = "<group>"; };
-		94818B5B151B5E5A0012D875 /* PanCanAppDelegate.h */ = {isa = PBXFileReference; path = PanCanAppDelegate.h; sourceTree = "<group>"; };
+		94818B5A151B5E5A0012D875 /* PanCanApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PanCanApp-Prefix.pch"; sourceTree = "<group>"; };
+		94818B5B151B5E5A0012D875 /* PanCanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanCanAppDelegate.h; sourceTree = "<group>"; };
 		94818B5C151B5E5A0012D875 /* PanCanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanCanAppDelegate.m; sourceTree = "<group>"; };
 		94818B5F151B5E5A0012D875 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		94818B61151B5E5A0012D875 /* PanCanMasterViewController.h */ = {isa = PBXFileReference; path = PanCanMasterViewController.h; sourceTree = "<group>"; };
+		94818B61151B5E5A0012D875 /* PanCanMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanCanMasterViewController.h; sourceTree = "<group>"; };
 		94818B62151B5E5A0012D875 /* PanCanMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanCanMasterViewController.m; sourceTree = "<group>"; };
-		94818B64151B5E5A0012D875 /* PanCanDetailViewController.h */ = {isa = PBXFileReference; path = PanCanDetailViewController.h; sourceTree = "<group>"; };
+		94818B64151B5E5A0012D875 /* PanCanDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanCanDetailViewController.h; sourceTree = "<group>"; };
 		94818B65151B5E5A0012D875 /* PanCanDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanCanDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -245,7 +245,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PanCanApp/PanCanApp-Prefix.pch";
 				INFOPLIST_FILE = "PanCanApp/PanCanApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -256,7 +258,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PanCanApp/PanCanApp-Prefix.pch";
 				INFOPLIST_FILE = "PanCanApp/PanCanApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
